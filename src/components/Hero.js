@@ -23,7 +23,7 @@ export default function Hero() {
           <h1
             onClick={() => setShow(!show)}
             className='name'
-            style={{ fontSize: '325%', fontFamily: 'Mono' }}
+            style={{ fontSize: '325%', fontFamily: 'Mono', width: '100%' }}
           >
             miguel!
           </h1>

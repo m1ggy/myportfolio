@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Links from './components/Links';
+import './App.css';
 function App() {
   const [show, setShow] = useState(false);
   useEffect(() => {
@@ -20,7 +21,7 @@ function App() {
     };
   }, []);
   return (
-    <div>
+    <div className='App'>
       <Hero />
       <Skills />
       <Contact />
@@ -36,7 +37,7 @@ function App() {
                 cursor: 'pointer',
                 bottom: '10%',
                 left: '10%',
-                fontSize: '150%',
+                fontSize: '100%',
                 backgroundColor: 'none',
                 textDecoration: 'none',
                 color: 'sandybrown',

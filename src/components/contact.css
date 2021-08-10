@@ -28,4 +28,7 @@
   .imgSizing {
     display: none;
   }
+  .contactText {
+    font-size: 12px;
+  }
 }
