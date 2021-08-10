@@ -1,0 +1,22 @@
+.linkswrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: max-content;
+  min-height: 100vh;
+  background-color: black;
+  flex-direction: column;
+  color: white;
+}
+.imgsizing {
+  width: 3rem;
+  height: 100%;
+  margin: 10px;
+}
+.imgwrapper {
+  color: white;
+  font-family: Mono;
+  display: flex;
+  flex-direction: row;
+}

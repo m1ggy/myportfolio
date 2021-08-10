@@ -1,0 +1,31 @@
+.contactwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: max-content;
+  min-height: 100vh;
+  color: 'black';
+  flex-direction: column;
+}
+.contactText {
+  text-align: center;
+}
+.contactText a {
+  text-decoration: underline;
+  color: black;
+}
+.contactText a:hover {
+  background-color: black;
+  color: white;
+}
+.imgSizing {
+  width: 35rem;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .imgSizing {
+    display: none;
+  }
+}

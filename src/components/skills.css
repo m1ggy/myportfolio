@@ -1,0 +1,25 @@
+.skillswrapper {
+  width: 100vw;
+  height: max-content;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.skillheader {
+  text-align: center;
+}
+.imgsizing {
+  width: 3rem;
+  height: 100%;
+  margin: 10px;
+}
+.imgwrapper {
+  color: white;
+  font-family: Mono;
+  display: flex;
+  flex-direction: row;
+}
