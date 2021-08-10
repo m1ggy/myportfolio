@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Links from './components/Links';
 import './App.css';
+import Projects from './components/Projects';
 function App() {
   const [show, setShow] = useState(false);
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <Skills />
       <Contact />
+      <Projects />
       <Links />
       <a
         style={
@@ -35,7 +37,7 @@ function App() {
                 border: 'none',
                 outline: 'none',
                 cursor: 'pointer',
-                bottom: '10%',
+                bottom: '5%',
                 left: '10%',
                 fontSize: '100%',
                 backgroundColor: 'none',

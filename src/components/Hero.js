@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './hero.css';
 import me1 from '../dist/images/me1.jpg';
 export default function Hero() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   return (
     <div className='heroWrapper' id='top'>
       <div className='aligner'>
@@ -19,18 +19,22 @@ export default function Hero() {
           />
         </div>
         <div className='heroText'>
-          <h1 style={{ fontSize: '300%', fontFamily: 'Mono' }}>hey, i'm </h1>
-          <h1
-            onClick={() => setShow(!show)}
-            className='name'
-            style={{ fontSize: '325%', fontFamily: 'Mono', width: '100%' }}
-          >
-            miguel!
-          </h1>
-
-          <h3>web developer</h3>
+          <h2 style={{ fontFamily: 'Mono' }}>hey, i'm </h2>
+          <div className='nameWrapper'>
+            <h1
+              onClick={() => setShow(!show)}
+              className='name'
+              style={{ fontFamily: 'Mono', width: '100%' }}
+            >
+              miguel!
+            </h1>
+          </div>
+          <h2>web developer</h2>
         </div>
         <div className='nav'>
+          <a className='navitem' href='#projects'>
+            projects
+          </a>
           <a className='navitem' href='#skills'>
             skills
           </a>

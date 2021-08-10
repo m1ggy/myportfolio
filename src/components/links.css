@@ -1,13 +1,13 @@
 .linkswrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100vw;
   height: max-content;
-  min-height: 100vh;
-  background-color: black;
+  min-height: 25vh;
+  background-color: white;
   flex-direction: column;
-  color: white;
+  color: black;
 }
 .imgsizing {
   width: 3rem;
@@ -15,7 +15,7 @@
   margin: 10px;
 }
 .imgwrapper {
-  color: white;
+  color: black;
   font-family: Mono;
   display: flex;
   flex-direction: row;

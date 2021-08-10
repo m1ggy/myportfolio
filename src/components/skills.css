@@ -18,8 +18,11 @@
   margin: 10px;
 }
 .imgwrapper {
-  color: white;
   font-family: Mono;
   display: flex;
   flex-direction: row;
+}
+
+.imgwrapper > h3 {
+  color: white;
 }

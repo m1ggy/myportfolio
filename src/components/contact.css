@@ -10,6 +10,7 @@
 }
 .contactText {
   text-align: center;
+  white-space: normal;
 }
 .contactText a {
   text-decoration: underline;
@@ -27,8 +28,5 @@
 @media screen and (max-width: 600px) {
   .imgSizing {
     display: none;
-  }
-  .contactText {
-    font-size: 12px;
   }
 }

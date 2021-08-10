@@ -7,12 +7,12 @@ export default function Contact() {
       <div className='contactText'>
         <h1 data-aos='fade-down'>contact</h1>
         <h3 data-aos='fade-up-right'>need a website built? i gotchu 💯 🤝.</h3>
-        <h2 data-aos='fade-up-left' style={{ fontSize: '5vw' }}>
+        <h3 data-aos='fade-up-left'>
           send an email at{' '}
           <a href='mailto:miguel.buising1@gmail.com'>
             miguel.buising1@gmail.com
           </a>
-        </h2>
+        </h3>
       </div>
       <div data-aos='fade-up'>
         <img src={illustration} alt='web development' className='imgSizing' />

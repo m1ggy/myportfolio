@@ -1,0 +1,41 @@
+.projectswrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: max-content;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.projectlink {
+  text-decoration: none;
+  color: white;
+  font-size: 200%;
+  font-weight: bolder;
+}
+.projectlink:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  font-size: 200%;
+  font-weight: bolder;
+}
+.projectwrapper {
+  font-size: larger;
+  text-align: center;
+  max-width: 50%;
+  min-height: 100px;
+  max-height: max-content;
+  min-width: fit-content;
+  white-space: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .projectwrapper {
+    font-size: 70%;
+    text-align: center;
+  }
+}
