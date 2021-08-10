@@ -6,6 +6,9 @@ body {
   white-space: nowrap;
   font-family: Mono;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: Mono;
