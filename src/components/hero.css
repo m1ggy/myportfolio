@@ -17,11 +17,11 @@
 }
 .name {
   cursor: pointer;
+  animation: enlarge 2s ease-in-out infinite alternate;
 }
 .name:hover {
   background-color: black;
   color: white;
-  transform: scale(1.2);
 }
 .nav {
   display: flex;

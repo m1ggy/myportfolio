@@ -4,7 +4,7 @@ import me1 from '../dist/images/me1.jpg';
 export default function Hero() {
   const [show, setShow] = useState(false);
   return (
-    <div className='heroWrapper'>
+    <div className='heroWrapper' id='top'>
       <div className='aligner'>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <img
@@ -19,12 +19,15 @@ export default function Hero() {
           />
         </div>
         <div className='heroText'>
-          <h1 style={{ fontSize: '400%', fontFamily: 'Mono' }}>
-            hey, i'm{' '}
-            <span onClick={() => setShow(!show)} className='name'>
-              miguel!
-            </span>
+          <h1 style={{ fontSize: '300%', fontFamily: 'Mono' }}>hey, i'm </h1>
+          <h1
+            onClick={() => setShow(!show)}
+            className='name'
+            style={{ fontSize: '325%', fontFamily: 'Mono' }}
+          >
+            miguel!
           </h1>
+
           <h3>web developer</h3>
         </div>
         <div className='nav'>
