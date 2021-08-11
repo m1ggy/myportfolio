@@ -24,7 +24,7 @@ export default function Hero() {
             <h1
               onClick={() => setShow(!show)}
               className='name'
-              style={{ fontFamily: 'Mono', width: '100%' }}
+              style={{ fontFamily: 'Mono' }}
             >
               miguel!
             </h1>
@@ -32,14 +32,14 @@ export default function Hero() {
           <h2>web developer</h2>
         </div>
         <div className='nav'>
-          <a className='navitem' href='#projects'>
-            projects
-          </a>
           <a className='navitem' href='#skills'>
             skills
           </a>
           <a className='navitem' href='#contact'>
             contact
+          </a>
+          <a className='navitem' href='#projects'>
+            projects
           </a>
           <a className='navitem' href='#links'>
             links
